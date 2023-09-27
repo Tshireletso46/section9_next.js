@@ -6,7 +6,7 @@ function Button(props) {
   if (props.link) {
     return (
       <Link href={props.link}>
-        <a className={classes.btn}>{props.children}</a>
+        < span className={classes.btn}>{props.children} </span>
       </Link>
     );
   }
